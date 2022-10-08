@@ -1,0 +1,16 @@
+{
+  "name": "lunarelly/telegram",
+  "description": "Telegram library for PocketMine-MP servers",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "lunarelly\\telegram\\": "src/"
+    }
+  },
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Lunarelly"
+    }
+  ]
+}
