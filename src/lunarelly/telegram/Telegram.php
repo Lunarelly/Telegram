@@ -76,4 +76,14 @@ final class Telegram
     {
         return $this->getToken() === $telegram->getToken() && $this->getChatId() === $telegram->getChatId();
     }
+
+    /**
+     * Converts the class to string.
+     *
+     * @return string
+     */
+    public function __toString(): string
+    {
+        return "Token: " . $this->getToken() . ", Chat ID: " . $this->getChatId();
+    }
 }
