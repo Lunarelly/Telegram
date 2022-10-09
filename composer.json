@@ -1,8 +1,17 @@
 {
   "name": "lunarelly/telegram",
   "description": "Telegram library for PocketMine-MP servers",
+  "type": "library",
   "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "pocketmine/pocketmine-mp": "^4.0.0",
+    "ext-curl": "*"
+  },
   "autoload": {
+    "psr-0": {
+      "lunarelly\\telegram\\": "src/"
+    },
     "psr-4": {
       "lunarelly\\telegram\\": "src/"
     }

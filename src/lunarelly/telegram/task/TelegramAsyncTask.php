@@ -54,7 +54,7 @@ final class TelegramAsyncTask extends AsyncTask
         }
 
         if (!(array_key_exists("ok", $response))) {
-            throw new TelegramException("Bad Request: invalid link or servers down");
+            throw new TelegramException("Bad Request: invalid link or server is down");
         }
 
         if ($response["ok"] === false) {
